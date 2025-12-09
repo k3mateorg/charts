@@ -1,0 +1,9 @@
+immich:
+  persistence:
+    library:
+      existingClaim: immich-library-pvc
+
+pvc:
+  create: true
+  name: immich-library-pvc
+  size: 50Gi

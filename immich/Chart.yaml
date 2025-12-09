@@ -1,0 +1,10 @@
+apiVersion: v2
+name: immich-override
+description: Wrapper chart for Immich with PVC pre-hook
+type: application
+version: 0.1.0
+appVersion: "1.0.0"
+dependencies:
+  - name: immich
+    version: "0.10.3"
+    repository: https://immich-app.github.io/immich-charts
