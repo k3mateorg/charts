@@ -7,7 +7,7 @@ spec:
 
   storage:
     size: 10Gi
-    storageClassName: hcloud-volumes
+  storageClassName: hcloud-volumes
 
   imageName: ghcr.io/tensorchord/cloudnative-vectorchord:16.9-0.4.3
 
