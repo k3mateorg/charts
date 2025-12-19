@@ -13,7 +13,7 @@ spec:
 
   postgresql:
     shared_preload_libraries:
-      - "vchord.so"
+      - "vchord"
 
   bootstrap:
     initdb:
